@@ -37,6 +37,8 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel_moving = new System.Windows.Forms.Panel();
+            this.profile_panel1 = new WindowsFormsApplication1.profile_panel();
+            this.news_panel1 = new WindowsFormsApplication1.news_panel();
             this.userControl11 = new WindowsFormsApplication1.UserControl1();
             this.userControl21 = new WindowsFormsApplication1.UserControl2();
             this.panel_news.SuspendLayout();
@@ -57,54 +59,80 @@
             this.panel_news.Controls.Add(this.pictureBox4);
             this.panel_news.Controls.Add(this.pictureBox3);
             this.panel_news.Controls.Add(this.pictureBox2);
-            this.panel_news.Location = new System.Drawing.Point(12, 60);
+            this.panel_news.Location = new System.Drawing.Point(917, 497);
             this.panel_news.Name = "panel_news";
             this.panel_news.Size = new System.Drawing.Size(909, 439);
             this.panel_news.TabIndex = 2;
+            this.panel_news.Visible = false;
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox6.BackColor = System.Drawing.Color.White;
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox6.ErrorImage = global::WindowsFormsApplication1.Properties.Resources.news_null;
+            this.pictureBox6.InitialImage = global::WindowsFormsApplication1.Properties.Resources.news_null;
             this.pictureBox6.Location = new System.Drawing.Point(288, 274);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(264, 146);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 4;
             this.pictureBox6.TabStop = false;
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox5.BackColor = System.Drawing.Color.White;
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.ErrorImage = global::WindowsFormsApplication1.Properties.Resources.news_null;
             this.pictureBox5.Location = new System.Drawing.Point(18, 274);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(264, 146);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 3;
             this.pictureBox5.TabStop = false;
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox4.BackColor = System.Drawing.Color.White;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.ErrorImage = global::WindowsFormsApplication1.Properties.Resources.news_null;
+            this.pictureBox4.InitialImage = global::WindowsFormsApplication1.Properties.Resources.news_null;
             this.pictureBox4.Location = new System.Drawing.Point(558, 223);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(334, 197);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox3.BackColor = System.Drawing.Color.White;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.ErrorImage = null;
+            this.pictureBox3.InitialImage = global::WindowsFormsApplication1.Properties.Resources.news_null;
             this.pictureBox3.Location = new System.Drawing.Point(558, 20);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(334, 197);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.BackColor = System.Drawing.Color.White;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.ErrorImage = global::WindowsFormsApplication1.Properties.Resources.news_null;
+            this.pictureBox2.InitialImage = global::WindowsFormsApplication1.Properties.Resources.news_null;
             this.pictureBox2.Location = new System.Drawing.Point(18, 20);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(534, 248);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
@@ -132,6 +160,23 @@
             this.panel_moving.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel_moving_MouseDown);
             this.panel_moving.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel_moving_MouseMove);
             // 
+            // profile_panel1
+            // 
+            this.profile_panel1.BackColor = System.Drawing.Color.Black;
+            this.profile_panel1.Location = new System.Drawing.Point(12, 66);
+            this.profile_panel1.Name = "profile_panel1";
+            this.profile_panel1.Size = new System.Drawing.Size(909, 439);
+            this.profile_panel1.TabIndex = 4;
+            this.profile_panel1.Visible = false;
+            // 
+            // news_panel1
+            // 
+            this.news_panel1.BackColor = System.Drawing.Color.Transparent;
+            this.news_panel1.Location = new System.Drawing.Point(12, 66);
+            this.news_panel1.Name = "news_panel1";
+            this.news_panel1.Size = new System.Drawing.Size(909, 439);
+            this.news_panel1.TabIndex = 3;
+            // 
             // userControl11
             // 
             this.userControl11.BackColor = System.Drawing.Color.Transparent;
@@ -155,6 +200,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(933, 511);
+            this.Controls.Add(this.profile_panel1);
+            this.Controls.Add(this.news_panel1);
             this.Controls.Add(this.panel_moving);
             this.Controls.Add(this.panel_news);
             this.DoubleBuffered = true;
@@ -190,6 +237,8 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private news_panel news_panel1;
+        private profile_panel profile_panel1;
     }
 }
 

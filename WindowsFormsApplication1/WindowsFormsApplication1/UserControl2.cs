@@ -27,21 +27,28 @@ namespace WindowsFormsApplication1
         private void pictureBox1_MouseLeave(object sender, EventArgs e)
         {
             pictureBox1.Image = Resources.menu_glav;
-            //pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            if(Program.myForm.news == true)
-            {
-                Program.myForm.news = false;
-            }
-            else
-            {
-                Program.myForm.news = true;
-            }
-            
-            //Program.myForm.news = true;
+            Program.myForm.news = true;
+            Program.myForm.profile = false;
+        }
+
+        private void pictureBox2_MouseMove(object sender, MouseEventArgs e)
+        {
+            pictureBox2.Image = Resources.menu_profil_move;
+        }
+
+        private void pictureBox2_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox2.Image = Resources.menu_profil;
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Program.myForm.news = false;
+            Program.myForm.profile = true;
         }
     }
 }

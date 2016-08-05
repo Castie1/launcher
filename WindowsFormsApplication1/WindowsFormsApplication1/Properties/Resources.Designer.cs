@@ -133,6 +133,26 @@ namespace WindowsFormsApplication1.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap menu_profil {
+            get {
+                object obj = ResourceManager.GetObject("menu_profil", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menu_profil_move {
+            get {
+                object obj = ResourceManager.GetObject("menu_profil_move", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Minimize {
             get {
                 object obj = ResourceManager.GetObject("Minimize", resourceCulture);
@@ -156,6 +176,16 @@ namespace WindowsFormsApplication1.Properties {
         internal static System.Drawing.Bitmap Minimize_Move_ {
             get {
                 object obj = ResourceManager.GetObject("Minimize_Move_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap news_null {
+            get {
+                object obj = ResourceManager.GetObject("news_null", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
