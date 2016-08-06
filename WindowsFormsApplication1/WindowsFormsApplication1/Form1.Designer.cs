@@ -140,7 +140,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources.icon;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Location = new System.Drawing.Point(12, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(54, 54);
@@ -163,7 +163,8 @@
             // profile_panel1
             // 
             this.profile_panel1.BackColor = System.Drawing.Color.Black;
-            this.profile_panel1.Location = new System.Drawing.Point(12, 66);
+            this.profile_panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.profile_panel1.Location = new System.Drawing.Point(12, 63);
             this.profile_panel1.Name = "profile_panel1";
             this.profile_panel1.Size = new System.Drawing.Size(909, 439);
             this.profile_panel1.TabIndex = 4;
