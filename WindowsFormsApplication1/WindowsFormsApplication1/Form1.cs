@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApplication1.Properties;
 using Newtonsoft.Json;
+using System.Xml;
+using System.Net;
+using System.IO;
 
 namespace WindowsFormsApplication1
 {
@@ -16,6 +19,11 @@ namespace WindowsFormsApplication1
     {       
         public Form1()
         {
+            autoupdate upd;
+            upd = new autoupdate();
+            upd.check_updater();
+            upd.search_version();
+
             InitializeComponent();
         }
 
@@ -40,7 +48,6 @@ namespace WindowsFormsApplication1
                 this.Location = new Point(iFormX + (iMouseX2 - iMouseX), iFormY + (iMouseY2 - iMouseY));
             
         }
-
         private void panel_moving_MouseDown(object sender, MouseEventArgs e)
         {
             iFormX = this.Location.X;

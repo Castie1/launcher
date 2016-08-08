@@ -15,7 +15,7 @@ namespace WindowsFormsApplication1
     {
         public Form2()
         {
-            
+            TopMost = true;
             InitializeComponent();
         }
 

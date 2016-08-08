@@ -1,3 +1,6 @@
+D:\Git\launcher\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\Launcher.exe.config
+D:\Git\launcher\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\Launcher.exe
+D:\Git\launcher\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\Launcher.pdb
 D:\Git\launcher\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\Newtonsoft.Json.dll
 D:\Git\launcher\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\Newtonsoft.Json.xml
 D:\Git\launcher\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form1.resources
@@ -8,9 +11,5 @@ D:\Git\launcher\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\Wi
 D:\Git\launcher\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.UserControl1.resources
 D:\Git\launcher\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.UserControl2.resources
 D:\Git\launcher\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.csproj.GenerateResource.Cache
-D:\Git\launcher\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\Launcher.exe.config
-D:\Git\launcher\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\Launcher.exe
-D:\Git\launcher\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\Launcher.pdb
 D:\Git\launcher\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\Launcher.exe
 D:\Git\launcher\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\Launcher.pdb
-D:\Git\launcher\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.csprojResolveAssemblyReference.cache

@@ -37,10 +37,12 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel_moving = new System.Windows.Forms.Panel();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.profile_panel1 = new WindowsFormsApplication1.profile_panel();
             this.news_panel1 = new WindowsFormsApplication1.news_panel();
             this.userControl11 = new WindowsFormsApplication1.UserControl1();
             this.userControl21 = new WindowsFormsApplication1.UserControl2();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.panel_news.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -162,9 +164,9 @@
             // 
             // profile_panel1
             // 
-            this.profile_panel1.BackColor = System.Drawing.Color.Black;
+            this.profile_panel1.BackColor = System.Drawing.Color.DarkGray;
             this.profile_panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.profile_panel1.Location = new System.Drawing.Point(12, 63);
+            this.profile_panel1.Location = new System.Drawing.Point(24, 60);
             this.profile_panel1.Name = "profile_panel1";
             this.profile_panel1.Size = new System.Drawing.Size(909, 439);
             this.profile_panel1.TabIndex = 4;
@@ -194,6 +196,13 @@
             this.userControl21.Size = new System.Drawing.Size(686, 42);
             this.userControl21.TabIndex = 1;
             // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(62, 482);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(783, 23);
+            this.progressBar1.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -201,6 +210,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(933, 511);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.profile_panel1);
             this.Controls.Add(this.news_panel1);
             this.Controls.Add(this.panel_moving);
@@ -240,6 +250,8 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private news_panel news_panel1;
         private profile_panel profile_panel1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
 
