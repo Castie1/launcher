@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel_news = new System.Windows.Forms.Panel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -37,12 +38,11 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel_moving = new System.Windows.Forms.Panel();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.userControl11 = new WindowsFormsApplication1.UserControl1();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.profile_panel1 = new WindowsFormsApplication1.profile_panel();
             this.news_panel1 = new WindowsFormsApplication1.news_panel();
-            this.userControl11 = new WindowsFormsApplication1.UserControl1();
             this.userControl21 = new WindowsFormsApplication1.UserControl2();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.panel_news.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -152,8 +152,8 @@
             // panel_moving
             // 
             this.panel_moving.BackColor = System.Drawing.Color.Transparent;
-            this.panel_moving.Controls.Add(this.userControl11);
             this.panel_moving.Controls.Add(this.userControl21);
+            this.panel_moving.Controls.Add(this.userControl11);
             this.panel_moving.Controls.Add(this.pictureBox1);
             this.panel_moving.Location = new System.Drawing.Point(0, 0);
             this.panel_moving.Name = "panel_moving";
@@ -162,11 +162,27 @@
             this.panel_moving.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel_moving_MouseDown);
             this.panel_moving.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel_moving_MouseMove);
             // 
+            // userControl11
+            // 
+            this.userControl11.BackColor = System.Drawing.Color.Transparent;
+            this.userControl11.Location = new System.Drawing.Point(831, 12);
+            this.userControl11.Name = "userControl11";
+            this.userControl11.Size = new System.Drawing.Size(90, 26);
+            this.userControl11.TabIndex = 0;
+            // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "Launcher";
+            this.notifyIcon1.Visible = true;
+            this.notifyIcon1.Click += new System.EventHandler(this.notifyIcon1_Click);
+            // 
             // profile_panel1
             // 
-            this.profile_panel1.BackColor = System.Drawing.Color.DarkGray;
+            this.profile_panel1.BackColor = System.Drawing.Color.Transparent;
+            this.profile_panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("profile_panel1.BackgroundImage")));
             this.profile_panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.profile_panel1.Location = new System.Drawing.Point(24, 60);
+            this.profile_panel1.Location = new System.Drawing.Point(12, 60);
             this.profile_panel1.Name = "profile_panel1";
             this.profile_panel1.Size = new System.Drawing.Size(909, 439);
             this.profile_panel1.TabIndex = 4;
@@ -180,37 +196,21 @@
             this.news_panel1.Size = new System.Drawing.Size(909, 439);
             this.news_panel1.TabIndex = 3;
             // 
-            // userControl11
-            // 
-            this.userControl11.BackColor = System.Drawing.Color.Transparent;
-            this.userControl11.Location = new System.Drawing.Point(831, 12);
-            this.userControl11.Name = "userControl11";
-            this.userControl11.Size = new System.Drawing.Size(90, 26);
-            this.userControl11.TabIndex = 0;
-            // 
             // userControl21
             // 
             this.userControl21.BackColor = System.Drawing.Color.Transparent;
-            this.userControl21.Location = new System.Drawing.Point(83, 12);
+            this.userControl21.Location = new System.Drawing.Point(116, 12);
             this.userControl21.Name = "userControl21";
             this.userControl21.Size = new System.Drawing.Size(686, 42);
-            this.userControl21.TabIndex = 1;
-            // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(62, 482);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(783, 23);
-            this.progressBar1.TabIndex = 5;
+            this.userControl21.TabIndex = 4;
             // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(933, 511);
-            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.profile_panel1);
             this.Controls.Add(this.news_panel1);
             this.Controls.Add(this.panel_moving);
@@ -239,7 +239,6 @@
         #endregion
 
         private UserControl1 userControl11;
-        private UserControl2 userControl21;
         public System.Windows.Forms.Panel panel_news;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel_moving;
@@ -249,9 +248,9 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
         private news_panel news_panel1;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
         private profile_panel profile_panel1;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.ProgressBar progressBar1;
+        private UserControl2 userControl21;
     }
 }
 

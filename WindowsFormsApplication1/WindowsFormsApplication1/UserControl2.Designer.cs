@@ -46,16 +46,20 @@
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.InitialImage = global::WindowsFormsApplication1.Properties.Resources.menu_support;
             this.pictureBox5.Location = new System.Drawing.Point(511, 0);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(175, 42);
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.MouseLeave += new System.EventHandler(this.pictureBox5_MouseLeave);
+            this.pictureBox5.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox5_MouseMove);
             // 
             // pictureBox4
             // 
             this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.InitialImage = global::WindowsFormsApplication1.Properties.Resources.menu_forum;
             this.pictureBox4.Location = new System.Drawing.Point(392, 0);
             this.pictureBox4.MaximumSize = new System.Drawing.Size(120, 42);
             this.pictureBox4.MinimumSize = new System.Drawing.Size(120, 42);
@@ -63,11 +67,14 @@
             this.pictureBox4.Size = new System.Drawing.Size(120, 42);
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.MouseLeave += new System.EventHandler(this.pictureBox4_MouseLeave);
+            this.pictureBox4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox4_MouseMove);
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.InitialImage = global::WindowsFormsApplication1.Properties.Resources.menu_game;
             this.pictureBox3.Location = new System.Drawing.Point(233, 0);
             this.pictureBox3.MaximumSize = new System.Drawing.Size(159, 42);
             this.pictureBox3.MinimumSize = new System.Drawing.Size(159, 42);
@@ -75,6 +82,8 @@
             this.pictureBox3.Size = new System.Drawing.Size(159, 42);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.MouseLeave += new System.EventHandler(this.pictureBox3_MouseLeave);
+            this.pictureBox3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox3_MouseMove);
             // 
             // pictureBox2
             // 

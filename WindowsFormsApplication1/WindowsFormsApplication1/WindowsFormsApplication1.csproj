@@ -185,6 +185,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\menu_support_move.png" />
+    <None Include="Resources\menu_support.png" />
+    <None Include="Resources\menu_game_move.png" />
+    <None Include="Resources\menu_game.png" />
+    <None Include="Resources\menu_forum_move.png" />
+    <None Include="Resources\menu_forum.png" />
     <None Include="Resources\menu_profil_move.png" />
     <None Include="Resources\menu_profil.png" />
     <None Include="Resources\news_null.jpg" />

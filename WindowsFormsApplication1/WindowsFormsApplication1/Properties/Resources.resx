@@ -166,4 +166,22 @@
   <data name="menu_profil_move" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu_profil_move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="menu_forum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_forum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_forum_move" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_forum_move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_game" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_game.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_game_move" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_game_move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_support" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_support.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_support_move" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_support_move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

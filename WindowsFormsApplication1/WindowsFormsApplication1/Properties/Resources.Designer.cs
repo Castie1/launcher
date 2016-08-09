@@ -113,6 +113,46 @@ namespace WindowsFormsApplication1.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap menu_forum {
+            get {
+                object obj = ResourceManager.GetObject("menu_forum", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menu_forum_move {
+            get {
+                object obj = ResourceManager.GetObject("menu_forum_move", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menu_game {
+            get {
+                object obj = ResourceManager.GetObject("menu_game", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menu_game_move {
+            get {
+                object obj = ResourceManager.GetObject("menu_game_move", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap menu_glav {
             get {
                 object obj = ResourceManager.GetObject("menu_glav", resourceCulture);
@@ -146,6 +186,26 @@ namespace WindowsFormsApplication1.Properties {
         internal static System.Drawing.Bitmap menu_profil_move {
             get {
                 object obj = ResourceManager.GetObject("menu_profil_move", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menu_support {
+            get {
+                object obj = ResourceManager.GetObject("menu_support", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menu_support_move {
+            get {
+                object obj = ResourceManager.GetObject("menu_support_move", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
